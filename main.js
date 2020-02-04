@@ -4,7 +4,7 @@ const createWindow = () => {
     Menu.setApplicationMenu(null);
     
     const win = new BrowserWindow({
-        width: 700,
+        width: 900,
         height: 440,
         webPreferences: {
             nodeIntegration: true

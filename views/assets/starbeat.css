@@ -17,10 +17,14 @@
 }
 
 /* tab */
+.tab {
+    text-transform: none;
+    width: 300px;
+}
 .tab-body {
     padding: 20px 20px 0px 20px;
 }
-.tab a {
+.a {
     text-transform: none;
 }
 
@@ -55,25 +59,12 @@ input[type="color"] {
     margin-bottom: 10px;
 }
 .color-sliders {
-    margin-left: 0px!important;
+    /* margin-left: 0px!important; */
     margin-right: 0px!important;
     padding: 0px 10px;
 }
 .range-field {
     margin-top: 20px;
-}
-
-/* about */
-#about-app {
-    padding-top: 50px;
-    text-align: center;
-}
-.about-title {
-    margin: 15px 0px;
-    text-align: center;
-}
-.about-version {
-    color: #888888;
 }
 
 /* supported-device */
@@ -82,4 +73,17 @@ input[type="color"] {
 }
 .supported-devices-list figure {
     display: inline-block;
+}
+
+/* about */
+#about-app {
+    padding-top: 20px;
+    text-align: center;
+}
+.about-title {
+    margin: 15px 0px;
+    text-align: center;
+}
+.about-version {
+    color: #888888;
 }
