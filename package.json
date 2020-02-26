@@ -16,7 +16,7 @@
   "scripts": {
     "postinstall": "electron-rebuild --force",
     "start": "electron . --no-sandbox",
-    "pack": "electron-packager . 'STAR BEAT!' --overwrite --platform=darwin --arch=x64 --icon=app.icns --out=./dist --asar --app-version=1.1.0",
-    "pack:linux": "electron-packager . 'STAR BEAT!' --overwrite --platform=linux --arch=x64 --icon=app.ico --out=./dist --asar --app-version=1.1.0"
+    "pack": "electron-packager . '键盘灯助手' --overwrite --platform=darwin --arch=x64 --icon=app.icns --out=./dist --asar --app-version=1.1.0",
+    "pack:linux": "electron-packager . '键盘灯助手' --overwrite --platform=linux --arch=x64 --icon=app.ico --out=./dist --asar --app-version=1.1.0"
   }
 }
